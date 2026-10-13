@@ -1,10 +1,10 @@
 // Unit test для функції k(x, y)
-#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN // doctest сам створює main для запуску тестів
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN 
 #include "doctest.h"
 
 // підключаємо програму; її main перейменовуємо, щоб не було двох main
 #define main program_main
-#include "..lab5/Lab_05_1.cpp"
+#include "Lab_05_1.cpp"
 #undef main
 
 // k(1, 1) = 1/|2| + 1/|2| = 1
